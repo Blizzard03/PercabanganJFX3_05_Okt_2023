@@ -18,7 +18,7 @@ public class PercabanganJFX3 extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("PercabanganJFX3.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/percabanganjfx3/FXML/PercabanganJFX3.fxml"));
         
         Scene scene = new Scene(root);
         
